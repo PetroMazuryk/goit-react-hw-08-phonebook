@@ -16,7 +16,7 @@ export const PhoneTitle = () => {
       nodeRef={itemRef}
     >
       <h1 className={styles.title} ref={itemRef}>
-        Phonebook 7
+        Phonebook 8
       </h1>
     </CSSTransition>
   );
