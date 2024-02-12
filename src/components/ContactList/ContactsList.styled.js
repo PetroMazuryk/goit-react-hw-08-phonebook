@@ -8,6 +8,21 @@ export const List = styled.ul`
   box-shadow: -4px -4px 9px #fff, 11px 11px 21px -8px #000;
 
   margin: 20px auto;
+
+  .contact-enter {
+    transform: translateX(-850px);
+  }
+  .contact-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+  .contact-exit {
+    opacity: 1;
+  }
+  .contact-exit-active {
+    transform: translateX(-850px);
+    transition: all 500ms ease-in;
+  }
 `;
 export const Item = styled.li`
   display: flex;
