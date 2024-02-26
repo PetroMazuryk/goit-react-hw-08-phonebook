@@ -13,7 +13,10 @@ import {
   PasswordDiv,
 } from './Login.styled';
 
-const initialValues = { email: 'testdima123@ukr.net', password: 'testDima123' };
+const initialValues = {
+  email: 'testPetro73@gmail.com',
+  password: 'testPetro73',
+};
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
